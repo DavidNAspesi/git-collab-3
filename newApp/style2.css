@@ -1,0 +1,16 @@
+main {
+    height: 100%;
+}
+
+h1 {
+    visibility: inherit;
+}
+
+ul {
+    display: block;
+    text-decoration: none;
+}
+
+p {
+    background-color: red;
+}

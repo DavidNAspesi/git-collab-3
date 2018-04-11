@@ -9,3 +9,11 @@ function onlyEven(array) {
         return newArray
     }
 }
+
+function multiply(array) {
+    let accumulator = array[0]
+    for (i = 1; i < array.length; i++) {
+        accumulator = accumulator * array[i]
+    }
+    return accumulator
+}
